@@ -29,7 +29,7 @@ int main(int argc, char **argv)
         {
             expenseSet.erase(expense);
             findPairSum(expenses, 2020 - expense, &num1, &num2);
-            cout << "Part 1: " << num1 * num2 * expense << "\n";
+            cout << "Part 2: " << num1 * num2 * expense << "\n";
             break;
         }
         catch (char const *)
