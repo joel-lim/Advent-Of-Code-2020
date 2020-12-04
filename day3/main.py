@@ -1,5 +1,5 @@
 """
-https://adventofcode.com/2020/day/2
+https://adventofcode.com/2020/day/3
 """
 FILE = 'input.txt'
 
@@ -27,7 +27,6 @@ def parse_map(file):
     """
     with open(FILE) as f:
         return Map([line for line in f])
-
 
 def main():
     map_ = parse_map(FILE)
