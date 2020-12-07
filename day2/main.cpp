@@ -32,7 +32,7 @@ int main(int argc, char **argv)
         }
     }
     cout << "Part 1: " << count1 << "\n";
-    cout << "Part 1: " << count2 << "\n";
+    cout << "Part 2: " << count2 << "\n";
     return 0;
 }
 
