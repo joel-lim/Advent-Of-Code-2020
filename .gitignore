@@ -6,3 +6,6 @@ venv/
 
 # Compiled cpp
 *.exe
+
+# vscode
+.vscode
