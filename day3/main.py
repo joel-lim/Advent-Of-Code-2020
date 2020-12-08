@@ -10,7 +10,7 @@ class Map:
     def __init__(self, rows):
         self.rows = rows
         self.height = len(rows)
-        self.width = len(rows[0]) - 1
+        self.width = len(rows[0])
 
     def traverse_slope(self, right, down):
         no_trees = 0
@@ -26,7 +26,7 @@ def parse_map(file):
     Parses an input file to produce a map of trees and squares
     """
     with open(FILE) as f:
-        return Map([line for line in f])
+        return Map([line[:-1] for line in f])
 
 def main():
     map_ = parse_map(FILE)
