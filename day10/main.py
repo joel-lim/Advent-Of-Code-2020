@@ -1,5 +1,5 @@
 """
-https://adventofcode.com/2020/day/9
+https://adventofcode.com/2020/day/10
 """
 FILE = 'input.txt'
 
